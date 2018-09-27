@@ -23,7 +23,7 @@ region = 'http://oss-cn-shenzhen.aliyuncs.com'
 # 访问域名
 domainName = ''
 # 图片样式
-styleCode = "?image/auto-orient,1/quality,q_90/watermark,text_WmFja-ivtOeggQ,type_d3F5LW1pY3JvaGVp,size_20,t_60,color_ffffff,g_se,y_10,x_10"
+styleCode = "?x-oss-process=style/zack-blog"
 
 auth = oss2.Auth(accessKeyId,accessKeySecret)
 
